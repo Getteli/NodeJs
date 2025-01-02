@@ -2,7 +2,7 @@
 	<img src="https://static-00.iconduck.com/assets.00/nodejs-icon-2048x1254-fc24w6ld.png" width="100"/>
 </div>
 <h2 align="center">
-    <b>NodeJS - diversos</b>
+    <b>NodeJS - (Udemy & Youtube)</b>
 </h2>
 
 <p align="center">
