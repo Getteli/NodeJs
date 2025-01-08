@@ -1,0 +1,23 @@
+<!-- includes -->
+ <%- include("includes/header.ejs") %>
+<body>
+    <!--
+        escapa caracteres de html 
+
+        tag do ejs <%= %> 
+
+        mantem os caracteres de html
+        <%- %>
+     -->
+    <h1>    <%= titulo %>   </h1>
+
+    <!-- IF -->
+     <% if (numeros) { %>
+        <p>Array de numeros:</p>
+        <% numeros.forEach(function(numero) { %>
+            <li><%= numero %></li>
+        <% }); %>
+     <% } %>
+
+<!-- includes -->
+<%- include("includes/footer.ejs") %>
